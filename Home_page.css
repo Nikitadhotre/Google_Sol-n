@@ -1,0 +1,13 @@
+body {
+    /* background-image: url('ZHimage1.jpeg'); Specify the path to your image */
+    background-image: url('image3.png'); /* Specify the path to your image */
+    
+    background-size: 1550px 500px;
+ /* This will make the background image cover the entire body */
+    background-repeat: no-repeat; /* This ensures the image does not repeat */
+    /* You can also set other properties like background-position, background-attachment, etc. */
+}
+.content {
+    /* Styles for the content area */
+    padding: 20px;
+}
