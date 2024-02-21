@@ -89,6 +89,8 @@ body{
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 .right-side .message-box{
   min-height: 110px;
@@ -110,6 +112,7 @@ body{
 }
 .button input[type="button"]:hover{
   background: #e8e6ec;
+  
 }
 
 @media (max-width: 950px) {
@@ -145,3 +148,4 @@ body{
    margin-left: 0;
  }
 }
+

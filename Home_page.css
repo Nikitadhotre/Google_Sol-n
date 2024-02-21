@@ -9,7 +9,7 @@ body {
     /* You can also set other properties like background-position, background-attachment, etc. */
 
     padding-left: auto;
-    padding-right: ;
+    padding-right: 0;
 }
 
 .navbar-logo{
@@ -35,9 +35,9 @@ header{
    text-align: center;
    font-size: 60px;
 }
-.btn{
-    color: ;
-}
+ 
+
+
 .nav-link{
     font-size: 23px;
     color: black;
@@ -95,9 +95,13 @@ header{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    
+    }
 
+#donatebtn a{
+    text-decoration: none;
+    color: white;
 }
+
 #slogan{
    color: white;
    position: relative;
