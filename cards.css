@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(190, 189, 189);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card1 {
+    width: 310px;
+    height: 460px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.image1 img {
+    width: 280px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+.card2 {
+    width: 310px;
+    height: 460px;
+    background-color: pink;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.image2 img {
+    width: 280px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+.card3 {
+    width: 310px;
+    height: 460px;
+    background-color: palegreen;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.image3 img {
+    width: 280px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 20px;
+}
