@@ -114,6 +114,7 @@ body{
 p.thicker {
     font-weight: 900;
     font-size: 40px;
+    
   }
   p.normal {
     font-size: 30px;
@@ -133,6 +134,9 @@ p.thick {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
 }
 .button2 {
     background-color: white; 
