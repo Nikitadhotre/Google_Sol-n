@@ -5,19 +5,24 @@
 <head>
     <link rel="stylesheet" href="style3.css">
     <meta charset="UTF-8">
-    <title>Donate</title>
+    <title>Donation | firebase</title>
     <link rel="stylesheet" href="style3.css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="C:\Users\SSD\OneDrive\Documents\GitHub\Zero_Hunger\bootstrap-4.6.2-dist\bootstrap-4.6.2-dist\css">
     <link rel="stylesheet" href="Donate.css">
+    <link rel="stylesheet" href="connect.php">
+    
+
 </head>
 
 <body>
+    <form id="donation" method="post" action="connect.php">  
 
     <div class="right-side">
-        <p class="thicker">Donate Food</p><br>
+          
+          <p class="thicker">Donate Food</p><br>
         <p class="normal">Personal Details</p><br>
         <form action="#">
             <div class="input-box">
@@ -37,7 +42,7 @@
                 <input type="text" placeholder="Address" ><br><br>
             </div><br>
             <div id="sendbtn">
-                <button class="button button2">Send</button>
+                <button class="button button2">Submit</button>
             </div>
             
     </div>
@@ -46,6 +51,8 @@
     </div>
     </div>
     </div>
+</form> 
+<script src="donate.js"> </script>
 </body>
 
 </html>

@@ -1,8 +1,8 @@
 
 
-.collab{
+.collaboration{
 font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: medium;
     color: rgb(14, 16, 17);
     padding-left: 60px;
     padding-right: 60px;
@@ -10,6 +10,7 @@ font-family: 'Times New Roman', Times, serif;
     padding-top: 40px;
     background-color: azure;
     font-display: 10;
+    
 }
 
 
@@ -25,4 +26,13 @@ font-family: 'Times New Roman', Times, serif;
     background: #ae4040;
     
 }
-    
+#gapara{
+    font-size: 23px;
+}
+#zhpara{
+    font-size: 23px;
+}
+.collaboration{
+    font-size: medium;
+}
+
